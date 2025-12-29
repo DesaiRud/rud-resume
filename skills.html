@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Desai Rudra</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            margin: 20px;
+        }
+        
+        .skill-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .skill-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 12px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+        
+        .skill-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 8px;
+        }
+        
+        .skill-name {
+            font-weight: bold;
+            color: #10406f;
+            margin: 0;
+        }
+        
+        .skill-level {
+            font-size: 0.85em;
+            color: #666;
+            margin: 5px 0 0 0;
+        }
+        
+        .skills-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+        
+        .skills-section h3 {
+            text-align: center;
+            color: #10406f;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;">Desai Rudra</h1>
+        <nav style="text-align:center; margin-top:10px;">
+            <a href="index.html">Home</a> |
+            <a href="project.html">Projects</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="certificate.html">Certificates</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="text-align:center; margin-top:20px;">My Skills</h2>
+        
+        <div class="skills-section">
+            <h3>Frontend Technologies</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/html.svg" alt="HTML"></div>
+                    <p class="skill-name">HTML</p>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/css.svg" alt="CSS"></div>
+                    <p class="skill-name">CSS</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/javascript.svg" alt="JavaScript"></div>
+                    <p class="skill-name">JavaScript</p>
+                    <p class="skill-level">Biginner</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h3>Backend & Database</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/php.svg" alt="PHP"></div>
+                    <p class="skill-name">PHP</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/python.svg" alt="Python"></div>
+                    <p class="skill-name">Python</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/java.svg" alt="Java"></div>
+                    <p class="skill-name">Java</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/mysql.svg" alt="MySQL"></div>
+                    <p class="skill-name">MySQL</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/django.svg" alt="Django"></div>
+                    <p class="skill-name">Django</p>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h3>Tools & Others</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/git.svg" alt="Git"></div>
+                    <p class="skill-name">Git</p>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/vscode.svg" alt="VS Code"></div>
+                    <p class="skill-name">VS Code</p>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/responsive.svg" alt="Responsive Design"></div>
+                    <p class="skill-name">Responsive Design</p>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="icons/accessibility.svg" alt="Web Accessibility"></div>
+                    <p class="skill-name">Web Accessibility</p>
+                    <p class="skill-level">Advanced</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer style="text-align:center; margin-top:20px;">
+        © [2025] All rights reserved by Desai Rudra
+    </footer>
+</body>
+</html>
